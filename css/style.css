@@ -32,10 +32,12 @@ flex-direction: row;
 list-style: none;
 font-weight: bold;
 
+
 }
 a {
 text-decoration: none;
-color: white;
+color: black;
+
 
 }
 .imgNav{
@@ -49,8 +51,14 @@ header li {
 display: flex;
 flex-direction: row;
 padding: 12px;
-color: white;
+background-color: white;
 margin: 20px;
+font-size: 1rem;
+border-radius: 10px;
+
+
+
+
 }
 header h1 {
 color: white;
@@ -69,6 +77,9 @@ height: 90px;
 height:50%;
 width: 50% ;
 border-radius: 10px;
+font-size: 1rem;
+margin-bottom: 20px;
+margin-top: 20px;
 
 
 }
@@ -163,8 +174,45 @@ padding-left: 150px;
 padding-right: 150px;
 }
 
+.tiendaHoddies {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+margin: 20px;
+}
+.tiendaHoddies div {
+text-align: center;
+margin: 20px;
+
+}
+
+.placeHolder {
+    height: 110px; 
+    width: 1860px;
+    margin-top: 20px;
+
+
+}
+
+fieldset {
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+
+.botonEnviar {
+font-size: 1rem;
+border-radius: 1px;
+
+}
+
+.card {
+    width: 18rem;
+    height: auto;
 
 
 
 
-
+}
