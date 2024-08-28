@@ -174,14 +174,15 @@ padding-left: 150px;
 padding-right: 150px;
 }
 
-.tiendaHoddies {
+.tienda {
 display: flex;
 flex-direction: row;
 align-items: center;
 padding: 20px;
 margin: 20px;
+
 }
-.tiendaHoddies div {
+.tienda div {
 text-align: center;
 margin: 20px;
 
