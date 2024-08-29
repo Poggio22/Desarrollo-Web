@@ -215,7 +215,7 @@ border-radius: 1px;
 
 }
 
-@media (max-width: 570px) {
+@media (max-width: 780px) {
 
     .section1 {
         display: flex;
@@ -248,3 +248,22 @@ border-radius: 1px;
         margin-left: 150px;
     }
     } 
+
+
+@media (max-width: 780px) {
+
+    .sectionSobreNos {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .listaSobreNos {
+
+
+    }
+    .liSobreNos {
+        padding-bottom: 40px;
+        
+        }
+
+}
