@@ -1,0 +1,59 @@
+@media (max-width: 780px) {
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgInicio {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    header {
+        background-color: black;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+    
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .imgNav {
+        height: 25%;
+        width: 25%;
+        
+    }}}
+
+@media (max-width: 780px) {
+
+    .sectionSobreNos {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    
+    .liSobreNos {
+        padding-bottom: 40px;
+            
+            }
+    
+    }
+    
+    .Preguntas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .acordeon {
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .Nosotros {
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+

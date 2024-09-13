@@ -1,0 +1,156 @@
+@import "mediaqueries";
+@import "header";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: "Montserrat", monospace;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgNav {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.imgInicio {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section {
+    h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    border: black;
+}
+
+main {
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    li {
+        display: inline;
+    }
+}
+.botonFormulario{
+    margin: 20px;
+    text-align: left;
+}
+.imgHoddies {
+    height: 100%;
+    width: 100%;
+}
+
+.imgSneakers {
+    height: 200px;
+    width: 190px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pInicio {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.listaSobreNos {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.liSobreNos {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.sectionSobreNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+    div {
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+.placeHolder {
+    height: 110px;
+    width: 1860px;
+    margin-top: 20px;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.botonEnviar {
+    font-size: 1rem;
+    border-radius: 1px;
+}
+
+.card {
+    width: 18rem;
+    height: auto;
+}
+

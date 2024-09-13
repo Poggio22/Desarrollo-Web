@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .botonesHeader{
+        padding: 12px;
+        background-color: white;
+        margin: 20px;
+        font-size: 1rem;
+        border-radius: 10px;
+        text-decoration: none;
+
+    }
+}
