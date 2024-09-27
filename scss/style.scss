@@ -1,5 +1,3 @@
-@import "mediaqueries";
-@import "header";
 
 @font-face {
     font-family: "Montserrat";
@@ -14,9 +12,6 @@ body {
     color: white;
     background-color: black;
 }
-
-
-
 
 
 a {
@@ -153,4 +148,11 @@ fieldset {
     width: 18rem;
     height: auto;
 }
+
+.acordeon {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+@import "layout/mediaqueries";
+@import"layout/header";
 

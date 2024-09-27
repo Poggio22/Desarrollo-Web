@@ -1,75 +1,3 @@
-@media (max-width: 780px) {
-  .section1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .imgInicio {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  header {
-    background-color: black;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-  }
-  header ul {
-    flex-direction: column;
-    text-align: center;
-  }
-  header .imgNav {
-    height: 25%;
-    width: 25%;
-  }
-}
-@media (max-width: 780px) {
-  .sectionSobreNos {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .liSobreNos {
-    padding-bottom: 40px;
-  }
-}
-.Preguntas {
-  display: flex;
-  flex-direction: column;
-}
-
-.acordeon {
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-
-.Nosotros {
-  text-align: center;
-  margin-top: 20px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-nav .botonesHeader {
-  padding: 12px;
-  background-color: white;
-  margin: 20px;
-  font-size: 1rem;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
 @font-face {
   font-family: "Montserrat";
   src: url("../assets/Montserrat-Italic-VariableFont_wght.ttf");
@@ -212,6 +140,77 @@ fieldset {
 .card {
   width: 18rem;
   height: auto;
+}
+
+.acordeon {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 780px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgInicio {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  header ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  header .imgNav {
+    height: 25%;
+    width: 25%;
+  }
+  .sectionSobreNos {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .liSobreNos {
+    padding-bottom: 40px;
+  }
+  .Preguntas {
+    display: flex;
+    flex-direction: column;
+  }
+  .Nosotros {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .tienda {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav .botonesHeader {
+  padding: 12px;
+  background-color: white;
+  margin: 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
