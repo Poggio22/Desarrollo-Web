@@ -12,9 +12,8 @@
         margin-top: 20px;
     }
     header {
-        background-color: black;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     header ul {
         flex-direction: column;
@@ -42,5 +41,6 @@
     .tienda {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
 }

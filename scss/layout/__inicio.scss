@@ -1,0 +1,22 @@
+.imgInicio {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    text-align: center;
+}
+.pInicio {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}

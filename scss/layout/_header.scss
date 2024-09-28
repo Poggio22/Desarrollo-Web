@@ -3,18 +3,24 @@ header{
     justify-content: space-between;
 }
 nav {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
+    @extend %flex-row;
+    background-color: $colorPrimario;
     justify-content: space-between;
     
     .botonesHeader{
         padding: 12px;
-        background-color: white;
+        background-color: $colorSecundario;
         margin: 20px;
         font-size: 1rem;
         border-radius: 10px;
         text-decoration: none;
-
     }
+    .botonesHeader:hover{
+        background-color:antiquewhite;
+    }
+}
+.imgNav {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
 }

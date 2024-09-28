@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: "Montserrat", monospace;
+}
+
+body {
+    color: $colorSecundario;
+    background-color: $colorPrimario;
+}
+
+
+a {
+    text-decoration: none;
+    color:$colorPrimario;
+}
+main {
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
+section {
+    h2 {
+    text-align: center;
+    background-color:$colorPrimario;
+    color: $colorSecundario;
+    }
+}

@@ -1,0 +1,15 @@
+.tienda {
+    @extend %flex-row;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+
+    div {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .card {
+        width: 18rem;
+        height: auto;
+    }}
